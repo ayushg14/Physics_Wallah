@@ -25,13 +25,16 @@
 .nav-course h4 {
     border: 1px solid black;
     border-radius: 4px;
-    height: 35px;
+    height: 40px;
+    width: 130px;
     text-align: center;
     padding: 7px 10px;
     position: relative;
     left: 50px;
     top: 10px;
     cursor: pointer;
+    color: #5a4bda;
+    line-height: 1.5;
 }
 .nav-detail {
     display: flex;
@@ -44,6 +47,7 @@
 .nav-detail h4 {
     margin-right: 20px;
     cursor: pointer;
+    color: #5a4bda;
 }
 .nav-right {
     display: flex;
@@ -70,5 +74,75 @@
     color: white;
     font-weight: 700;
     cursor: pointer;
+}
+.hero {
+    height: 350px;
+    width: 100%;
+}
+.hero1 {
+    height: 430px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mobile-hero {
+    height: 500px;
+    width: 85%;
+    background-color: brown;
+    position: relative;
+    left: 100px;
+    top: -25px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.hero-des {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    line-height: 60px;
+}
+.hero-des h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#learn {
+    margin-bottom: 0;
+}
+.hero-des h3 {
+    font-size: 20px;
+    margin-left: 5px;
+}
+.number {
+    position: relative;
+    top: 70px;
+    left: 25px;
+}
+.num {
+    font-size: 25px;
+}
+.numm {
+    height: 35px;
+    width: 300px;
+    border: none;
+    outline: none;
+    position: relative;
+    top: -3px;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    border-radius: 10px;
+}
+
+.sir-mobile {
+    height: 420px;
+    width: 400px;
+    position: relative;
+    top: 40px;
+    right: 20px;
 }
 
