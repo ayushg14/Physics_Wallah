@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.nav-bar {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: brown; */
+}
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-logo {
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+}
+.nav-course h4 {
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 35px;
+    text-align: center;
+    padding: 7px 10px;
+    position: relative;
+    left: 50px;
+    top: 10px;
+    cursor: pointer;
+}
+.nav-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    left: 75px;
+}
+.nav-detail h4 {
+    margin-right: 20px;
+    cursor: pointer;
+}
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.store {
+    height: 80px;
+    width: 200px;
+    cursor: pointer;
+}
+.login {
+    height: 45px;
+    width: 150px;
+    border-radius: 7px;
+    padding: 7px 10px;
+    background-color: #5a4bda;
+    border: 1px solid #5a4bda;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    font-size: 17px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
